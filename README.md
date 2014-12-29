@@ -71,5 +71,6 @@
 				},1000);
                 text.animate({opacity: 1},1000);
 </code></pre>
-[id]: url/to/image
+![svg动画] (https://github.com/zhangzicong6/svg-animation/blob/master/img/ani.gif)
+不太会截屏，把做的前面的动画也录了进来，可以看看
 那么这是一个页面的动画，想进入下一页，把这些元素按照自己想要的形势移除屏幕外，而后让下一页的元素显示出来即可，剩下的就是逻辑处理，跟动画操作在这儿就不一一书写了
