@@ -25,7 +25,7 @@
 &lt;/g&gt;
 &lt;/svg&gt;
 </code></pre>
-[id]: url/to/image
+[svg图片]: https://github.com/zhangzicong6/svg-animation/blob/master/img/svg.png
 先把svg设置到snap，<code>var snap=Snap("#svg");</code> snap查找元素跟jquery语法是一样的<code>snap.select("text");>snap.selectAll("circle");</code>
 设置属性和操作动画也跟jquery语法是一样的<code>cicle1.attr({
     				cx: -100,
