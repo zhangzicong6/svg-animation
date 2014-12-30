@@ -34,7 +34,7 @@ svg如果是简单线和简单图形程序员可以尝试自己写svg，不过�
 <g>
 	<circle id="cicle1" fill="#E60012" cx="343.054" cy="417.491" r="75.529"/>
 	<circle id="cicle2" fill="#E60012" cx="299.059" cy="417.491" r="75.529"/>
-	<g>>
+	<g>
 		<defs>
 			<circle id="SVGID_1_" cx="299.059" cy="417.491" r="75.529"/>
 		</defs>
@@ -46,8 +46,8 @@ svg如果是简单线和简单图形程序员可以尝试自己写svg，不过�
 </g>
 </svg>
 ```  
-![svg图片](https://github.com/zhangzicong6/svg-animation/blob/master/img/svg.png)  
-先把svg设置到snap，```var snap=Snap("#svg");``` snap查找元素跟jquery语法是一样的```snap.select("text");>snap.selectAll("circle");```
+![svg图片](https://raw.githubusercontent.com/zhangzicong6/svg-animation/master/img/svg.png)  
+先把svg设置到snap，```var snap=Snap("#svg");``` snap查找元素跟jquery语法是一样的```snap.select("text");snap.selectAll("circle");```
 设置属性和操作动画也跟jquery语法是一样的  
 ```javascript
 cicle1.attr({
@@ -100,5 +100,5 @@ SVGID_3_.animate({
 },1000);
 text.animate({opacity: 1},1000);
 ```  
-![svg动画](https://github.com/zhangzicong6/svg-animation/blob/master/img/ani.gif)  
+![svg动画](https://raw.githubusercontent.com/zhangzicong6/svg-animation/master/img/ani.gif)  
 不太会截屏，把做的前面的动画也录了进来，可以看看那么这是一个页面的动画，想进入下一页，把这些元素按照自己想要的形势移除屏幕外，而后让下一页的元素显示出来即可，剩下的就是逻辑处理，跟动画操作在这儿就不一一书写了
