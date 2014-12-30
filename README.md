@@ -9,26 +9,26 @@
 ##代码编写
 svg如果是简单线和简单图形程序员可以尝试自己写svg，不过一般项目里图形还是挺复杂的，可以让设计师在AI里设计导出svg，导出的svg：
 <pre><code>
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="640px" height="1008px" viewBox="0 0 640 1008" enable-background="new 0 0 640 1008" xml:space="preserve">
-<text transform="matrix(1 0 0 1 128.8887 595.5957)" fill="#E60012" font-family="'FZLTXHK--GBK1-0'" font-size="48.0418">创意和技术的结合</text>
-<g>
-	<circle fill="#E60012" cx="343.054" cy="417.491" r="75.529"/>
-	<circle fill="#E60012" cx="299.059" cy="417.491" r="75.529"/>
-	<g>
-		<defs>
-			<circle id="SVGID_1_" cx="299.059" cy="417.491" r="75.529"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  overflow="visible"/>
-		</clipPath>
-		<circle clip-path="url(#SVGID_2_)" fill="#FCFAFA" cx="342.556" cy="417.491" r="75.529"/>
-	</g>
-</g>
-</svg>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="640px" height="1008px" viewBox="0 0 640 1008" enable-background="new 0 0 640 1008" xml:space="preserve"&gt;
+&lt;text transform="matrix(1 0 0 1 128.8887 595.5957)" fill="#E60012" font-family="'FZLTXHK--GBK1-0'" font-size="48.0418"&gt;创意和技术的结合&lt;/text&gt;
+&lt;g&gt;
+	&lt;circle fill="#E60012" cx="343.054" cy="417.491" r="75.529"/&gt;
+	&lt;circle fill="#E60012" cx="299.059" cy="417.491" r="75.529"/&gt;
+	&lt;g&gt;
+		&lt;defs&gt;
+			&lt;circle id="SVGID_1_" cx="299.059" cy="417.491" r="75.529"/&gt;
+		&lt;/defs&gt;
+		&lt;clipPath id="SVGID_2_"&gt;
+			&lt;use xlink:href="#SVGID_1_"  overflow="visible"/&gt;
+		&lt;/clipPath&gt;
+		&lt;circle clip-path="url(#SVGID_2_)" fill="#FCFAFA" cx="342.556" cy="417.491" r="75.529"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
 </pre></code>
 我们要使用导出的svg需要将元素进行定位，比如那个元素要进行动画，那个元素后出来，你可以将svg贴入html中，在浏览器中审查元素找到哪个元素对应的位置等信息，将单独要做动画的元素设置id，方便查找。另外有个细节需要注意，就是svg的自适应，<code>viewBox="0 0 640 1008"</code>是指svg原本大小，然后在svg设置宽高，svg就会按照比例进行缩放，在这里我将width和height都设成100%
 <pre><code>
