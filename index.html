@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ued天机</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<style>
+	.wrp{
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+		display: block;
+	}
+	</style>
+</head>
+<body>
+	<div class="wrp">
+		<svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 640 1008" enable-background="new 0 0 640 1008" xml:space="preserve">
+		<text transform="matrix(1 0 0 1 128.8887 595.5957)" fill="#E60012" font-family="'FZLTXHK--GBK1-0'" font-size="48.0418">创意和技术的结合</text>
+		<g>
+			<circle id="circle1" fill="#E60012" cx="343.054" cy="417.491" r="75.529"/>
+			<circle id="circle2" fill="#E60012" cx="299.059" cy="417.491" r="75.529"/>
+			<g>
+				<clipPath id="SVGID_2_">
+		            <circle id="SVGID_1_" cx="299.059" cy="417.491" r="75.529"/>
+		        </clipPath>
+		        <circle id="SVGID_3_" clip-path="url(#SVGID_2_)" fill="#FCFAFA" cx="342.556" cy="417.491" r="75.529"/>
+			</g>
+		</g>
+		</svg>
+	</div>
+
+<script src="js/snap.js"></script>
+<script>
+	var snap=Snap("#svg");
+	var circle1 = snap.select("#circle1");
+	var SVGID_1_ = snap.select("#SVGID_1_");
+		cicle3	 = snap.select("#circle2");
+		SVGID_3_ = snap.select("#SVGID_3_");
+	circle1.attr({
+	    cx: -100,
+	    xy: 417.491
+	});
+	SVGID_1_.attr({
+	    cx: -100,
+	    xy: 417.491
+	});
+	cicle3.attr({
+	    cx: 740,
+	    xy: 417.491
+	});
+	SVGID_3_.attr({
+	    cx: 740,
+	    xy: 417.491
+	});
+
+	circle1.animate({
+	    cx: 343.054,
+	    xy: 417.491
+	},1000);
+	SVGID_1_.animate({
+	    cx: 289.059,
+	    xy: 417.491
+	},1000);
+	cicle3.animate({
+	    cx: 299.059,
+	    xy: 417.491
+	},1000);
+	SVGID_3_.animate({
+	    cx: 342.556,
+	    xy: 417.491
+	},1000);
+</script>
+</body>
+</html>
